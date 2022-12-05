@@ -1,0 +1,37 @@
+.business{
+    &__container {
+        width: 100%;
+        background-color: #fff;
+        display: grid;
+        grid-template-rows: min-content 1fr;
+        row-gap: 1rem;
+        justify-content: center;
+        padding: 5rem 10rem;
+    }
+    &__title {
+        color: #0E88D7;
+        justify-self: center;
+        font-weight: bold;
+    }
+    &__images_container {
+        // display: flex;
+        display: flex;
+        column-gap: 5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        // background-color: blueviolet;
+        padding: 2rem;
+        row-gap: 2rem;
+        overflow-y: auto;
+        // width: 100%;
+        img {
+            width: auto;
+            max-width: 200px;
+            @media (max-width: 740px) {
+                // width: 40%;
+                min-width: 100px;
+            }
+        }
+    }
+}

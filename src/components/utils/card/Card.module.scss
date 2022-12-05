@@ -1,0 +1,29 @@
+.container{
+    border-radius: 20px;
+    color: #2C65A7;
+    background-color: white;
+    font-size: 1.24rem;
+    padding: 2rem;
+    position: absolute;
+    box-shadow: 3px 3px 16px 0px rgba(0,0,0,0.75);
+    width: 290px;
+    height: 256px;
+    img[src$="attribute1.svg"]{
+        padding-bottom: 2rem;
+        width: 9rem;    
+    }
+    img[src$="attribute4.svg"]{
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        width: 10rem;
+    }
+    img {
+        width: 110px;
+        padding-bottom: 1rem;
+    }
+    p {
+        font-weight: 500;
+        padding: 0 25px;
+    }
+
+}

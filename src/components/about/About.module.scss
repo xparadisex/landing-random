@@ -1,0 +1,46 @@
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    background-color: #fff;
+    .contAbtInf {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 80px;
+        .cardInfAb {
+            border: 5px solid #0e88d7;
+            box-sizing: border-box;
+            border-radius: 20px;
+            padding: 40px 50px;
+            max-width: 430px;
+            width: 100%;
+            position: relative;
+            font-family: Roboto;
+            h4 {
+                position: absolute;
+                top: -21px;
+                background: #fff;
+                padding: 0 20px;
+                color: #0e88d7;
+                font-size: 30px;
+                margin: auto;
+                left: 0;
+                right: 0;
+                width: max-content;
+            }
+            p {
+                font-size: 16px;
+                text-align: center;
+            }
+        }
+    }
+    .contentImgPerson {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        img {
+            width: 80%;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.methodology {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div {
+        user-select: none;
+        max-width: 1000px;
+        img {
+            width: 100%;
+        }
+    }
+}
